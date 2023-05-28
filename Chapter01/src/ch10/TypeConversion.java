@@ -26,5 +26,12 @@ public class TypeConversion {
 		
 		System.out.println(iNum1);
 		System.out.println(iNum2);
+		
+		int myNum = 10;
+		int yourNum = 20;
+		
+//		myNum = myNum + yourNum;
+		myNum += yourNum; // 복합 연산자
+		System.out.println(myNum);
 	}
 }
