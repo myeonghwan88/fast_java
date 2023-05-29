@@ -27,7 +27,7 @@ public class IfIfTest {
 			System.out.println("일반인 입니다.");
 		}
 		
-		System.out.println("입장료는 " + charge + "원 입니다.");
+		System.out.println("if-if 입장료는 " + charge + "원 입니다.");
 	}
 
 }

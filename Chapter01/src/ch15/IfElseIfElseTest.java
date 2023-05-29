@@ -1,16 +1,14 @@
 package ch15;
-
 import java.util.Scanner;
-
 public class IfElseIfElseTest {
 
 	public static void main(String[] args) {
-		int age = 12;
+//		int age = 12;
 		int charge;
 		
-//		Scanner scanner = new Scanner(System.in);
-//		System.out.print("나이입력:");
-//		int age = scanner.nextInt();
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("나이입력:");
+		int age = scanner.nextInt();
 		
 		if (age < 8) {
 			charge = 1000;
