@@ -23,6 +23,7 @@ public class DowhileTest {
 			sum += input;
 		} while ( input != 0 );
 		System.out.println(sum);
+		scanner.close();
 	}
 
 }
