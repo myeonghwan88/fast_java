@@ -1,5 +1,7 @@
 package ch15;
+
 import java.util.Scanner;
+
 public class IfElseIfElseTest {
 
 	public static void main(String[] args) {
